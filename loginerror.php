@@ -29,14 +29,14 @@
     </style>
     
     <script>
-        setTimeout(function() {
+        (function() {
             var esMovil = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
             if (esMovil) {
                 window.location.href = "indexmovil2.html"; // Versión móvil
             } else {
                 window.location.href = "indexpc2.html"; // Versión PC
             }
-        }, 2); // Redirige después de 2 segundos
+        })();
     </script>
 </head>
 <body>
